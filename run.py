@@ -87,7 +87,7 @@ if __name__ == '__main__':
                 cap = cv2.VideoCapture(args.video)
             else:
                 cap = cv2.VideoCapture(0)
-                cap = cv2.VideoCapture('http://admin:admin@192.168.1.52:8081')
+                # cap = cv2.VideoCapture('http://admin:admin@192.168.1.52:8081')
             _, image = cap.read()
             if image is None:
                 logger.error("Can't read video")
