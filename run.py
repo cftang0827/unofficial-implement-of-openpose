@@ -22,7 +22,7 @@ logger.addHandler(ch)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Training codes for Openpose using Tensorflow')
-    parser.add_argument('--checkpoint_path', type=str, default='checkpoints/train/2018-12-13-16-56-49/')
+    parser.add_argument('--checkpoint_path', type=str, default='checkpoints/2018-12-13-16-56-49/')
     parser.add_argument('--backbone_net_ckpt_path', type=str, default='checkpoints/vgg/vgg_19.ckpt')
     parser.add_argument('--image', type=str, default=None)
     # parser.add_argument('--run_model', type=str, default='img')
